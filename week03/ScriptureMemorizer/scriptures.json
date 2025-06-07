@@ -1,0 +1,73 @@
+[
+  {
+    "book": "John",
+    "chapter": 3,
+    "verse": 16,
+    "endVerse": 16,
+    "text": "For God so loved the world that he gave his only begotten Son"
+  },
+  {
+    "book": "Proverbs",
+    "chapter": 3,
+    "verse": 5,
+    "endVerse": 6,
+    "text": "Trust in the Lord with all thine heart and lean not unto thine own understanding"
+  },
+  {
+    "book": "Jacob",
+    "chapter": 6,
+    "verse": 10,
+    "endVerse": 10,
+    "text": "And according to the power of justice, for justice cannot be denied, ye must go away into that lake of fire and brimstone, whose flames are unquenchable, and whose smoke ascendeth up forever and ever, which lake of fire and brimstone is endless torment."
+  },
+  {
+    "book": "Mosiah",
+    "chapter": 18,
+    "verse": 9,
+    "endVerse": 9,
+    "text": "Yea, and are willing to mourn with those that mourn; yea, and comfort those that stand in need of comfort, and to stand as witnesses of God at all times and in all things, and in all places that ye may be in, even until death, that ye may be redeemed of God, and be numbered with those of the first resurrection, that ye may have eternal life—"
+  },
+  {
+    "book": "Joshua",
+    "chapter": 1,
+    "verse": 6,
+    "endVerse": 7,
+    "text": "Be strong and of a good courage: for unto this people shalt thou divide for an inheritance the land, which I sware unto their fathers to give them. Only be thou strong and very courageous, that thou mayest observe to do according to all the law, which Moses my servant commanded thee: turn not from it to the right hand or to the left, that thou mayest prosper whithersoever thou goest."
+  },
+  {
+    "book": "2 Nephi",
+    "chapter": 2,
+    "verse": 25,
+    "endVerse": 25,
+    "text": "Adam fell that men might be; and men are, that they might have joy."
+  },
+  {
+    "book": "Doctrine and Covenants",
+    "chapter": 24,
+    "verse": 5,
+    "endVerse": 5,
+    "text": "And thou shalt continue in calling upon God in my name, and writing the things which shall be given thee by the Comforter, and expounding all scriptures unto the church.Trust in the Lord with all thine heart and lean not unto thine own understanding"
+  },
+  {
+    "book": "Doctrine and Covenants",
+    "chapter": 49,
+    "verse": 8,
+    "endVerse": 8,
+    "text": "Wherefore, I will that all men shall repent, for all are under sin, except those which I have reserved unto myself, holy men that ye know not of."
+  },
+  {
+    "book": "Mark",
+    "chapter": 8,
+    "verse": 35,
+    "endVerse": 37,
+    "text": "For whosoever will save his life shall lose it; but whosoever shall lose his life for my sake and the gospel's, the same shall save it. For what shall it profit a man, if he shall gain the whole world, and lose his own soul? Or what shall a man give in exchange for his soul?"
+  },
+
+  {
+    "book": "Alma",
+    "chapter": 32,
+    "verse": 21,
+    "endVerse": 21,
+    "text": "And now as I said concerning faith—faith is not to have a perfect knowledge of things; therefore if ye have faith ye hope for things which are not seen, which are true."
+  }
+]

@@ -3,18 +3,18 @@ using System.Collections.Generic;
 
 public class Scripture
 {
-    public Reference _reference;
-    public List<Word> _words = new List<Word>();
+    private Reference _reference;
+    private List<Word> _words;
 
     public Scripture(Reference reference, string text)
     {
         _reference = reference;
         _words = new List<Word>();
 
-        string[] splitWords = text.Split(' ');
-        foreach (var word in splitWords)
+        string[] parts = text.Split(' ');
+        foreach (string part in parts)
         {
-            _words.Add(new Word(word));
+            _words.Add(new Word(part));
         }
     }
 
@@ -55,6 +55,6 @@ public class Scripture
             if (!word.isHidden())
                 return false;
         }
-        return false;
+        return true;
     }
 }

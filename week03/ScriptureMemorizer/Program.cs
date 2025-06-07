@@ -1,13 +1,13 @@
 using System;
+using System.Text.Json;
+using System.IO;
 
 class Program
 {
     static void Main(string[] args)
     {
         Console.WriteLine("Hello World! This is the ScriptureMemorizer Project.");
-        Reference reference = new Reference("2 Nephi", 2, 25);
-        Scripture scripture = new Scripture(reference, "Adam fell that men might be; and men are, that they might have joy.");
-        // Word word = new Word("example");
+        Scripture scripture = LoadRandomScripture("scriptures.json");
 
         while (!scripture.IsCompletelyHidden())
         {
@@ -23,5 +23,26 @@ class Program
         }
 
         Console.WriteLine("\nAll words hidden or user quit. Thank you! Goodbye!");
+    }
+    
+    static Scripture LoadRandomScripture(string filePath)
+    {
+        string json = File.ReadAllText(filePath);
+        var scriptureList = JsonSerializer.Deserialize<List<ScriptureData>>(json, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        });
+
+        Random rand = new Random();
+        var randomScripture = scriptureList[rand.Next(scriptureList.Count)];
+
+        var reference = new Reference(
+            randomScripture.Book,
+            randomScripture.Chapter,
+            randomScripture.Verse,
+            randomScripture.EndVerse
+        );
+
+        return new Scripture(reference, randomScripture.Text);
     }
 }
