@@ -11,21 +11,21 @@ public class Word
 
     public void Hide()
     {
-
+        _isHidden = true;
     }
 
     public void Show()
     {
-
+        _isHidden = false;
     }
 
     public bool isHidden()
     {
-        return false;
+        return _isHidden;
     }
 
     public string GetDisplayText()
     {
-        return "";
+        return _isHidden ? "____" : _text;
     }
 }

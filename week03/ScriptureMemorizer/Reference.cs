@@ -23,6 +23,8 @@ public class Reference
 
     public string GetDisplayText()
     {
-        return "";
+        return _verse == _endVerse
+            ? $"{_book} {_chapter}:{_verse}"
+            : $"{_book} {_chapter}:{_verse}-{_endVerse}";
     }
 }
