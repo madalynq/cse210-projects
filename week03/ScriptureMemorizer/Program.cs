@@ -1,6 +1,7 @@
 using System;
 using System.Text.Json;
 using System.IO;
+// this program exceeds core requirements as it has an attached json file that it randomly pulls verses from.
 
 class Program
 {
@@ -24,7 +25,7 @@ class Program
 
         Console.WriteLine("\nAll words hidden or user quit. Thank you! Goodbye!");
     }
-    
+
     static Scripture LoadRandomScripture(string filePath)
     {
         string json = File.ReadAllText(filePath);
