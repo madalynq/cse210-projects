@@ -1,11 +1,16 @@
 public class Comment
 {
-    public string _name;
-    public string _comment;
+    private string _name;
+    private string _comment;
 
-    public void DisplayComment()
+    public Comment(string name, string text)
     {
-        Console.WriteLine($"Name: {_name}");
-        Console.WriteLine($"Comment: {_comment}");
+        _name = name;
+        _comment = text;
+    }
+
+    public void Display()
+    {
+        Console.WriteLine($"- {_name}: {_comment}");
     }
 }
